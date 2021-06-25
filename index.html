@@ -1,0 +1,50 @@
+<!doctype html><html><head><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script><style type="text/css">h1{
+  color: red;
+  font-family: cursive;
+}
+
+p{
+  color: rgb(16, 16, 102);
+  font-family: cursive;
+}
+
+p1{
+  color: rgb(50, 235, 235);
+  font-family: cursive;
+}
+
+p2{
+  color: rgb(89, 0, 253);
+}</style></head><body><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery UI Tabs - Default functionality</title>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
+</head>
+
+<h1>Popular Video Games</h1>
+
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Minecraft</a></li>
+		<li><a href="#tabs-2">Fortnite</a></li>
+		<li><a href="#tabs-3">Rocket League</a></li>
+	</ul>
+	<div id="tabs-1">
+		<p>Minecraft is a video game where you build buildings and structures and try to survive.
+		</p>
+    <ul>
+      <li> Its fun </li>
+      <li> You can be creative</li>
+      <li> So many things you can do </li>
+	</div>
+	<div id="tabs-2">
+		<p1>Fortnite is a battle royale game where 100 players compete for the victory.</p1>
+	</div>
+	<div id="tabs-3">
+		<p2>Rocket league is a game where you play other players in car soccer.</p2>
+	</div>
+</div><script type="text/javascript">$(function () {
+  $("#tabs").tabs();
+});</script></body><html>
